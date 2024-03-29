@@ -1,0 +1,82 @@
+file_settings:
+  file_path: "C:\\Users\\Swathi Raikwar\\Downloads\\Collection-Distribution Campaigns-20240318T104146Z-001\\Collection-Distribution Campaigns\\2022\\2022 Needs Assessment Survey All Regions.xlsx"
+  sheet_name: "Form1"
+  header_row: 1
+  nrows: 125
+
+column_settings:
+  fill_values:
+    default: "Unknown"
+#    specific:
+#      Column1: 0
+#      Column2: "NA"
+#  text_fields:
+#    - 'Email'
+#    - 'Name'
+  year: "2022"
+  region: "ALL"
+  rename_columns:
+#    "Please enter the ANDAR ID# we provided you as we your organizational information already. If you were not provided a number, please enter 0": "ANDAR_ID"
+    "Email": "Other"  # There's no direct match; categorizing as 'Other'.
+    "Name of your Organization": "Organization Name"
+    "City": "City"
+    "Postal Code": "Postal_Code"
+    'How often do they request menstrual products?': 'MenstrualProducts_RequestFrequency'
+    'Does your organization currently provide menstrual products to clients?': 'MenstrualProducts_Provide'
+    'Bulk donations of this type can take up a lot of space. Thinking about storage space please check the box that best reflects your situation.': 'HaveStorage'
+    'If we are able to provide your organization with product, are you able to pick up the product from a local United Way distribution center?': 'CanPickup'
+    'If it is possible to send a financial contribution to your organization, so that you can purchase product directly, would you prefer to do so?': 'AcceptFinancialContribution'
+    'Pads (disposable)': 'Pads'
+    'Tampons': 'Tampons'
+    'Liners (disposable)': 'Liners'
+    'Reusable Pads': 'Reusable Pads'
+    'Menstrual Cups': 'Menstrual Cups'
+    'Menstrual Discs': 'Menstrual Discs'
+    'Reusable Menstrual Underwear (Boxers, briefs, panties)': 'Reusable Underwear'
+
+  desired_columns:
+    ['Year', 'Region', 'ANDAR_ID', 'Organization Name', 'City', 'Postal_Code', 'Pads', 'Tampons', 'Liners', 'Diapers', 'Reusable Pads',  'Menstrual Cups', 'Menstrual Discs', 'Reusable Underwear', 'Other', 'Total $',
+     'ChildrenYouth_0_to_18',
+     'Families',
+     'EldersSeniors',
+     'Indigenous_FirstNations',
+     'Indigenous_Inuit',
+     'Indigenous_Metis',
+     'Racialized_Indigenous',
+     'Racialized_White',
+     'Racialized_SouthAsian',
+     'Racialized_WestAsian',
+     'Racialized_SoutheastAsian',
+     'Racialized_EastAsian',
+     'Racialized_MiddleEastern',
+     'Racialized_African',
+     'Racialized_HispanicLatino',
+     'Racialized_Arab',
+     'Members_2SLGBTQIA',
+     'Newcomers',
+     'People_Disabilities',
+     'MultiService_NonProfit',
+     'Settlement_Service',
+     'TransitionCrisis_Housing',
+     'ResidentialSupportive_Housing',
+     'Public_Service',
+     'NeighbourhoodHouse_CommunityCentre',
+     'FirstNations_Community',
+     'UrbanIndigenous_Organization',
+     'FoodBank_FoodSecurity',
+     'Medical_Centre',
+     'Immigrant_Services',
+     'Ministry_ChildrenFamilies_Agency',
+     'MenstrualProducts_RequestFrequency',
+     'MenstrualProducts_Provide',
+     'MenstrualProducts_Stories',
+     'MenstrualProducts_Budget',
+     'MenstrualProducts_AccessMethod',
+     'MenstrualProducts_DonationWish',
+    'HaveStorage',
+    'CanPickup',
+    'AcceptFinancialContribution']
+
+output_settings:
+  output_path: "C:\\Users\\Swathi Raikwar\\Documents\\SWATHI_IMPORTANT\\Output\\"
+  file_name: "needs_assessment_allregions_2022_detailed.csv"

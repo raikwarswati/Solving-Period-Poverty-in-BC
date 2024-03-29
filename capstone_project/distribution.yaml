@@ -1,0 +1,33 @@
+file_settings:
+  file_path: "C:\\Users\\Swathi Raikwar\\Downloads\\Collection-Distribution Campaigns-20240318T104146Z-001\\Collection-Distribution Campaigns\\2023\\Lower Mainland and Fraser Valley\\Combined Forms LMFV.xlsx"
+  sheet_name: "Product_Distributions"
+  header_row: 3
+  nrows: 115
+
+column_settings:
+  fill_values:
+    default: "Unknown"
+#    specific:
+#      Column1: 0
+#      Column2: "NA"
+  year: "2023"
+  region: "LMFV"
+  rename_columns:
+    'What is the name of the organization you distributed product tothat picked up product from the United Way office?': 'Organization Name'
+    'What is the Andar # of the organization you distributed product to?': 'ANDAR_ID'
+    'What is the postal code for this organization?': 'Postal_Code'
+    'Total Distribution (per Individual Product) of Disposable Pads': 'Pads'
+    'Total Distribution (per Individual Product) of Tampons': 'Tampons'
+    'Total Distribution (per Individual Product) of Disposable Liners': 'Liners'
+    'Total Distribution (per Individual Product) of Menstrual Cups': 'Menstrual Cups'
+    'Total Distribution (per Individual Product) of Menstrual Discs': 'Menstrual Discs'
+    'Total Distribution (per Individual Product) of Reusable Pads': 'Reusable Pads'
+    'Total Distribution (per Individual Product) of Reusable Underwear': 'Reusable Underwear'
+    'Total Distribution (per Individual Product) of Other Menstrual Products': 'Other'
+
+  desired_columns:
+    ['Year', 'Region', 'ANDAR_ID', 'Organization Name', 'Pads', 'Tampons', 'Liners', 'Diapers', 'Reusable Pads',  'Menstrual Cups', 'Menstrual Discs', 'Reusable Underwear', 'Other', 'Total $', 'Postal_Code', 'City', 'CanPickUp', 'AcceptFinancialContribution']
+
+output_settings:
+  output_path: "C:\\Users\\Swathi Raikwar\\Documents\\SWATHI_IMPORTANT\\Output\\"
+  file_name: "distribution_lmfv_2023.csv"

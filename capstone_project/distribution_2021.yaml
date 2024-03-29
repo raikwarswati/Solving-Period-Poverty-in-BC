@@ -1,0 +1,33 @@
+file_settings:
+  file_path: "C:\\Users\\Swathi Raikwar\\Downloads\\Collection-Distribution Campaigns-20240318T104146Z-001\\Collection-Distribution Campaigns\\2021\\2021 Agency Distribution List.xlsx"
+  sheet_name: "Form1"
+  header_row: 1
+  nrows: 105
+
+column_settings:
+  fill_values:
+    default: "Unknown"
+#    specific:
+#      Column1: 0
+#      Column2: "NA"
+  year: "2021"
+  region: "LM"
+  rename_columns:
+    'Name of your Organization': 'Organization Name'
+    'What is the Andar # of the organization you distributed product to?': 'ANDAR_ID'
+    'Postal Code': 'Postal_Code'
+    'City2': 'City'
+    'Pads (disposable)': 'Pads'
+    'Tampons': 'Tampons'
+    'Liners (disposable)': 'Liners'
+    'Reusable Pads': 'Reusable Pads'
+    'Munstrual Cups': 'Menstrual Cups'
+    'Reusable Menstrual Underwear (Boxers, briefs, panties)': 'Reusable Underwear'
+    'If we are able to provide your organization with product, are you able to pick up the product from a United Way distribution center?': 'CanPickUp'
+
+  desired_columns:
+    ['Year', 'Region', 'ANDAR_ID', 'Organization Name', 'Pads', 'Tampons', 'Liners', 'Diapers', 'Reusable Pads',  'Menstrual Cups', 'Menstrual Discs', 'Reusable Underwear', 'Other', 'Total $', 'Postal_Code', 'City', 'CanPickUp', 'AcceptFinancialContribution']
+
+output_settings:
+  output_path: "C:\\Users\\Swathi Raikwar\\Documents\\SWATHI_IMPORTANT\\Output\\"
+  file_name: "distribution_lm_2021.csv"

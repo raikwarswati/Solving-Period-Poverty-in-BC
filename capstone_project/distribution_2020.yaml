@@ -1,0 +1,32 @@
+file_settings:
+  file_path: "C:\\Users\\Swathi Raikwar\\Downloads\\Collection-Distribution Campaigns-20240318T104146Z-001\\Collection-Distribution Campaigns\\2020\\Distribution Planning Macros Embedded Original (1).xlsx"
+  sheet_name: "Survey Results"
+  header_row: 3
+  nrows: 48
+
+column_settings:
+  fill_values:
+    default: "0"
+#    specific:
+#      Column1: 0
+#      Column2: "NA"
+  year: "2020"
+  region: "LM"
+  rename_columns:
+    'Name of your Organization:': 'Organization Name'
+    'Postal Code': 'Postal_Code'
+    'City': 'City'
+    'Pads (disposable):': 'Pads'
+    'Tampons (disposable):': 'Tampons'
+    'Liners (disposable):': 'Liners'
+    'Reusable Pads (ex Aisle):': 'Reusable Pads'
+    'Reusable Menstrual Underware (boxers, briefs, panties):': 'Menstrual Cups'
+    'Diva Cups / Keepers': 'Other'
+    'If we are able to provide your organization with product,, are you able to pick up the product from the United Way office in Burnaby?': 'CanPickUp'
+
+  desired_columns:
+    ['Year', 'Region', 'ANDAR_ID', 'Organization Name', 'Pads', 'Tampons', 'Liners', 'Diapers', 'Reusable Pads',  'Menstrual Cups', 'Menstrual Discs', 'Reusable Underwear', 'Other', 'Total $', 'Postal_Code', 'City', 'CanPickUp', 'AcceptFinancialContribution']
+
+output_settings:
+  output_path: "C:\\Users\\Swathi Raikwar\\Documents\\SWATHI_IMPORTANT\\Output\\"
+  file_name: "distribution_lm_2020.csv"

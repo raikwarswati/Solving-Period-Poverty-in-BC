@@ -1,0 +1,43 @@
+file_settings:
+  file_path: "C:\\Users\\Swathi Raikwar\\Downloads\\Collection-Distribution Campaigns-20240318T104146Z-001\\Collection-Distribution Campaigns\\2023\\Lower Mainland and Fraser Valley\\Combined Forms LMFV.xlsx"
+  sheet_name: "Needs_Assessment_Survey"
+  header_row: 3
+  nrows: 80
+
+column_settings:
+  fill_values:
+    default: "Unknown"
+#    specific:
+#      Column1: 0
+#      Column2: "NA"
+#  text_fields:
+#    - 'Email'
+#    - 'Name'
+  year: "2023"
+  region: "LMFV"
+  rename_columns:
+    "Please enter the ANDAR ID# we provided you as we your organizational information already. If you were not provided a number, please enter 0": "ANDAR_ID"
+    "What is the full name of your organization?": "Organization Name"
+    "City": "City"
+    "Postal Code (A1A 1A1)": "Postal_Code"
+    'If we are able to provide your organization with product, are you able to pick up the product from a local United Way distribution center?': 'CanPickup'
+    'If it is possible to send a financial contribution to your organization, so that you can purchase product directly, would you prefer to do so?': 'AcceptFinancialContribution'
+    'Pads (disposable)': 'Pads'
+    'Tampons': 'Tampons'
+    'Liners (disposable)': 'Liners'
+    'Reusable Pads': 'Reusable Pads'
+    'Menstrual Cups': 'Menstrual Cups'
+    'Menstrual Discs': 'Menstrual Discs'
+    'Reusable Underwear': 'Reusable Underwear'
+
+  desired_columns:
+    ['Year', 'Region', 'ANDAR_ID', 'Organization Name', 'City', 'Postal_Code', 'Pads',
+     'Tampons', 'Liners', 'Diapers', 'Reusable Pads',  'Menstrual Cups', 'Menstrual Discs',
+     'Reusable Underwear', 'Other', 'Total $',
+    'HaveStorage',
+    'CanPickup',
+    'AcceptFinancialContribution']
+
+output_settings:
+  output_path: "C:\\Users\\Swathi Raikwar\\Documents\\SWATHI_IMPORTANT\\Output\\"
+  file_name: "needs_assessment_lmfv_2023.csv"

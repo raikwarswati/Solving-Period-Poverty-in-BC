@@ -1,0 +1,30 @@
+file_settings:
+  file_path: "C:\\Users\\Swathi Raikwar\\Downloads\\Collection-Distribution Campaigns-20240318T104146Z-001\\Collection-Distribution Campaigns\\2022\\2022 Distribution All Regions.xlsx"
+  sheet_name: "Distribution Data"
+  header_row: 1
+  nrows: 96
+
+column_settings:
+  fill_values:
+    default: "Unknown"
+#    specific:
+#      Column1: 0
+#      Column2: "NA"
+  year: "2022"
+  rename_columns:
+    'Agency': 'Organization Name'
+    'ANDAR Number': 'ANDAR_ID'
+    'Pads': 'Pads'
+    'Tampons': 'Tampons'
+    'Liners': 'Liners'
+    'Menstrual Cups': 'Menstrual Cups'
+    'Reusable Pads/Underwear (ex Aisle):': 'Reusable Underwear'
+    'Reusable Pads (Vancity/Aisle Research Project ONLY)': 'Other'
+    'Region': 'Region'
+
+  desired_columns:
+    ['Year', 'Region', 'ANDAR_ID', 'Organization Name', 'Pads', 'Tampons', 'Liners', 'Diapers', 'Reusable Pads',  'Menstrual Cups', 'Menstrual Discs', 'Reusable Underwear', 'Other', 'Total $', 'Postal_Code', 'City', 'CanPickUp', 'AcceptFinancialContribution']
+
+output_settings:
+  output_path: "C:\\Users\\Swathi Raikwar\\Documents\\SWATHI_IMPORTANT\\Output\\"
+  file_name: "distribution_allregions_2022.csv"
