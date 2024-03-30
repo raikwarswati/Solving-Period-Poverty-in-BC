@@ -1,5 +1,3 @@
-# Solving-Period-Poverty-in-BC
-
 # Solving Period Poverty in BC - Capstone Project
 
 ## Overview
@@ -8,15 +6,27 @@ This repository is home to the Capstone Project conducted by students from North
 
 ## Project Objective
 
-![Project Objective](./images/project_objective.png)
+![Project Objective](./capstone_project/project_objective.png)
 
 The objective of this project is to harness the power of data to address the challenges associated with period poverty. Through extensive data analysis, we aim to improve the understanding of needs, streamline distribution efforts, and support the decision-making processes of organizations involved in this cause.
 
-## Sponsors and Contributors
+## Gratitude and Acknowledgements
 
-This project is generously sponsored by the United Way of British Columbia (UWBC), Alexa, and Dama. We extend our deepest gratitude to our professor, Dinesh, for his invaluable guidance. This project is a collaborative effort of Northeastern University students: Swathi Raikwar, Shamim Sherafati, and Larissa Anoh.
+We are deeply grateful to our university, [Northeastern University Vancouver](https://vancouver.northeastern.edu/), for the opportunity to work on this impactful project. Special thanks to our mentor, [Professor Chinthaka Dinesh](https://www.linkedin.com/in/chinthaka-dinesh-a4a206196/), for his invaluable guidance and mentorship.
+
+Our heartfelt appreciation goes to our sponsors, the [UWBC](https://uwbc.ca/) team, [Alexa Graf](https://www.linkedin.com/in/alexa-graf1995/) and Dama, for their support and engagement in this initiative.
+
+## Project Members
+
+The project was brought to life by a dedicated team of Northeastern University students:
+
+- [Swathi Raikwar](https://www.linkedin.com/in/swathi-raikwar-b9456345/)
+- [Shamim Sherafati](https://www.linkedin.com/in/shamim-sherafati97/)
+- [Larissa Anoh](https://www.linkedin.com/in/larissaanoh1/)
 
 ## Project Structure
+
+![Project Architecture](./capstone_project/Project_Architecture.png)
 
 - `ETL_Tools/`: Python scripts for the ETL process to prepare the data.
 - `Database_Schema/`: SQL scripts for creating a structured database schema.
@@ -30,17 +40,17 @@ This project is generously sponsored by the United Way of British Columbia (UWBC
 - **ETL Process**: A set of tools for data preparation and transformation.
 - **Database Schema**: SQL database schema with an ER diagram for data organization.
 
-![ER Diagram](./ER_Diagrams/database_schema.png)
+![ER Diagram](./capstone_project/Capstone_Project_Period_Promise_ERD.png)
 
 - **Power BI Dashboards**: Visualizations that provide insights into product distribution and needs.
 
-![Power BI Dashboard](./PowerBI_Dashboards/dashboard_overview.png)
+![Power BI Dashboard](./capstone_project/PowerBI_Dashboard_Snap.png)
 
 - **Documentation**: In-depth instructions on the ETL process, database schema setup, and dashboard usage.
 
 ## Usage
 
-To utilize this project's resources:
+To use this project's resources:
 
 1. Run the ETL scripts to process raw data into an analyzable format.
 2. Execute SQL scripts to establish the database schema.
@@ -50,16 +60,6 @@ To utilize this project's resources:
 ## Contributing
 
 We welcome contributions from the community. For guidelines, please see the `CONTRIBUTING.md` file.
-
-## License
-
-The materials in this project are covered by the [MIT License](LICENSE).
-
-## Acknowledgements
-
-Our sincere appreciation goes to the UWBCT team, and all organizations committed to ending period poverty. A special thank you to our sponsors, UWBC, Alexa, and Dama, and to our mentor, Professor Dinesh, for their support and engagement in this meaningful project.
-
-![Acknowledgements](./images/acknowledgements.png)
 
 ---
 
