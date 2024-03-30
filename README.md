@@ -57,10 +57,6 @@ To use this project's resources:
 3. Use Power BI dashboards to visualize and interpret the data.
 4. Consult the documentation for step-by-step guides on each component.
 
-## Contributing
-
-We welcome contributions from the community. For guidelines, please see the `CONTRIBUTING.md` file.
-
 ---
 
 For detailed information on each project component, refer to the respective documentation and READMEs within each directory.
